@@ -17,7 +17,7 @@ print('Well, ' + myName + ', I am thinkiung of a number between 1 and 20.' )
 
 for guessesTaken in range(6):
     print('Take a guess.')
-    guess = int(input())
+    guess = str.isalnum(input())
 
     if guess < number:
         print('Your guess is too low.')
